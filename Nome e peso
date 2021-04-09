@@ -1,0 +1,39 @@
+//**Primeiro código em C**///
+
+#include <stdio.h>
+int main(void) {
+  ///CRIAR VARIAVEL///
+  int idade = 20;
+  float peso = 60.5; 
+  char letra; 
+  char nome[50]; 
+   
+         //Tipos de dados/////
+
+  ///inteiro int(%d)
+  //real float(%f) ou double (%lf)
+  //caracter char (%c)
+  //cadeia char nome [10] (%s)
+
+  //IMPRIMIR
+  printf("..texto..\n");
+
+  //escreva("Idade= ", idade, \n)//
+  printf("Idade- %d \n\n", idade);
+
+  printf("Idade- %d \nPeso -%f\n\n", idade, peso);
+
+  printf("idade -%d\nPeso-%1f\n\n", idade, peso);
+
+  //leia(idade)
+  scanf("%d", &idade);
+  printf("Idade =%d\n\n", idade);
+
+  printf("Digite idade e peso: \n");
+  scanf("%d%f", &idade, &peso);
+  printf("Idade - %d\nPeso - %1f\n\n", idade,peso);
+
+printf("Digite Idade: "); 
+scanf("%d", &idade);
+  return 0;
+}
