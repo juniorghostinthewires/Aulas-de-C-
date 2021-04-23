@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void) {
+
+double a,b,c, areatriangulo, areacirculo, areatrapezio, areaquadrado, arearetangulo, pi; 
+pi = 3.14159;
+
+scanf("%lf %lf %lf",&a, &b, &c);
+
+areatriangulo = (a*c)/2;
+areacirculo = pi*c*c;
+areatrapezio = ((a + b)*c)/2;
+areaquadrado = b*b;
+arearetangulo = a*b;
+
+  printf("TRIANGULO: %.3f\n", areatriangulo);
+  printf("CIRCULO: %.3f\n", areacirculo);
+  printf("TRAPEZIO: %.3f\n", areatrapezio);
+  printf("QUADRADO: %.3f\n", areaquadrado);
+  printf("RETANGULO: %.3f\n"
