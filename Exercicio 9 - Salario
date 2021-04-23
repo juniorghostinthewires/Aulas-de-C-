@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) {
+char nome[30];
+float salario_fixo,total_vendas,comissao,salario_final;
+
+scanf("%s%f%f",&nome[30],&salario_fixo,&total_vendas);
+
+comissao = (total_vendas * 15) / 100;
+salario_final = salario_fixo + comissao;
+printf("TOTAL = %.2f",salario_final);
+
+return 0;
+}
