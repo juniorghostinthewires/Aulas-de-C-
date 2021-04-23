@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+
+int main(void) {
+  int matriculaf, horastrabalhadas;
+  float valordahora, sf;
+
+    scanf("%d %d %f %f", &matriculaf,&horastrabalhadas,&valordahora, &sf );
+
+   sf = horastrabalhadas*valordahora;
+
+     printf("NUMBER = %d\n",matriculaf);
+    printf("SALARY = U$ %.2f\n",sf); 
+  return 0;
+}
